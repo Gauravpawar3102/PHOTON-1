@@ -44,7 +44,7 @@
         
         <div class="search-container">
           <div class="search">
-            <input type="search" placeholder="Search...">
+            <input class="search-input" type="search" placeholder="Search...">
           </div>
           <label class="icon">
           <span class="fas fa-search"></span>
@@ -175,8 +175,32 @@
     </div>
     <div class="more-all"><a href="Html/random.html">More...</a></div>
 </div>
+<!-- Contact Me -->
+<div class="contact-section">
+<div class="contact-container">
+<form class="contact-form"name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
 
-<div class="contact"></div>
+</div>
+</div>
 <!-- Footer--> 
 <footer>
     <div class="footer">Designed and Developed By @Gaurav_Pawar</div>

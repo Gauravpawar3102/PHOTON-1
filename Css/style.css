@@ -77,7 +77,7 @@ header {
   display: flex;
   justify-content: center;
 }
-input {
+.search-input {
   font-size: 1.8vw;
   font-weight: bold;
   background: transparent;
@@ -109,7 +109,7 @@ input[type='search']::-webkit-search-results-decoration {
   display: none;
 }
 
-label {
+.icon {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -358,6 +358,26 @@ label {
   overflow: auto;
   border: 2px solid black;
 } */
+
+.contact-section {
+  width: 100vw;
+}
+.contact-container {
+  background-color: var(--main-text-color2);
+  color: var(--main-bg-color);
+  display: flex;
+
+  justify-content: center;
+  padding: 1rem;
+  width: 100%;
+}
+p {
+  width: 100%;
+}
+.contact-form {
+  width: 100vh;
+}
+
 .footer {
   display: flex;
   justify-content: center;
