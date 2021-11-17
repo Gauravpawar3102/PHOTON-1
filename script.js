@@ -53,7 +53,13 @@ function tweet() {
 twitter.addEventListener('click', tweet);
 bulb.addEventListener('click', () => {
   document.body.classList.toggle('mode');
+  if (document.body.classList.contains('mode')) {
+    bulb.style.color = 'yellow';
+  } else {
+    bulb.style.color = 'grey';
+  }
 });
+
 // * Dark/Light Mode
 
 // !Reference section for My self & old way of getting data

@@ -38,6 +38,7 @@ header {
 .fa-lightbulb {
   font-size: 3vw;
   color: grey;
+  cursor: pointer;
 }
 .fa-lightbulb:hover {
   color: yellow;
@@ -365,6 +366,7 @@ label {
   background-color: var(--main-text-color2);
   font-weight: bolder;
   font-size: 28px;
+  border: 3px solid var(--main-bg-color);
 }
 
 /* !Light/Dark Mode */
