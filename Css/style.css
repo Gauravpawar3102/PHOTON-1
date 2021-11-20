@@ -232,10 +232,10 @@ input[type='search']::-webkit-search-results-decoration {
   grid-template-rows: repeat(2, 1fr);
   margin: 1rem;
   /* background-color: rgb(241, 234, 234); */
-  row-gap: 1rem;
-  column-gap: 1rem;
   height: 80vh;
+  row-gap: 1rem;
   flex-wrap: wrap;
+  column-gap: 1rem;
   /* justify-items: center; */
 }
 .img {
@@ -257,9 +257,9 @@ input[type='search']::-webkit-search-results-decoration {
 .more-all {
   display: flex;
   justify-content: end;
+  text-decoration: underline;
   margin-right: 2rem;
   color: var(--main-text-color);
-  text-decoration: underline;
   font-size: 2vw;
 }
 
@@ -268,8 +268,8 @@ input[type='search']::-webkit-search-results-decoration {
 .artistic-text,
 .random-text {
   margin-left: 2rem;
-  color: var(--main-text-color);
   font-size: 36px;
+  color: var(--main-text-color);
 }
 .nature-images {
   display: grid;
