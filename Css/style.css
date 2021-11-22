@@ -167,19 +167,19 @@ input[type='search']::-webkit-search-results-decoration {
   /* color: var(--main-bg-color); */
   color: lightgrey;
 
-  font-size: 2.5vw;
   font-weight: bold;
+  font-size: 2.5vw;
   /* letter-spacing: 1.72; */
-  position: relative;
   text-align: center;
+  position: relative;
 }
 .twitter-btn {
   background-color: var(--main-text-color);
+  padding: 0.5rem;
   margin-top: 1rem;
   border-radius: 15%;
-  outline: none;
-  padding: 0.5rem;
   font-family: Roboto, 'Sans-sarif';
+  outline: none;
   outline: none;
   border: none;
 }
@@ -199,8 +199,8 @@ input[type='search']::-webkit-search-results-decoration {
   margin: 2rem 0 2rem 0rem;
 }
 .featured-container {
-  width: 100%;
   height: 50%;
+  width: 100%;
   max-width: 98%;
 }
 
