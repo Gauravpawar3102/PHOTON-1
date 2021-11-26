@@ -184,8 +184,8 @@ input[type='search']::-webkit-search-results-decoration {
   border: none;
 }
 .fa-twitter {
-  display: flex;
   font-size: 2vw;
+  display: flex;
   justify-content: space-between;
   color: var(--main-bg-color);
   background-color: var(--main-text-color);
@@ -200,8 +200,8 @@ input[type='search']::-webkit-search-results-decoration {
 }
 .featured-container {
   width: 100%;
-  height: 50%;
   max-width: 98%;
+  height: 50%;
 }
 
 /* *All Images Section */
