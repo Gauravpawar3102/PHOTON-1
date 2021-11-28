@@ -337,10 +337,10 @@ input[type='search']::-webkit-search-results-decoration {
   grid-template-columns: repeat(3, 1fr);
   margin: 1rem;
   /* background-color: rgb(241, 234, 234); */
-  row-gap: 1rem;
   column-gap: 1rem;
-  height: 40vh;
   flex-wrap: wrap;
+  row-gap: 1rem;
+  height: 40vh;
 }
 
 /* !unnecessary old code */
@@ -378,9 +378,9 @@ p {
   width: 100vh;
 }
 
+justify-content: center;
 .footer {
   display: flex;
-  justify-content: center;
   align-items: center;
   padding: 1rem;
   background-color: var(--main-text-color2);
@@ -391,6 +391,6 @@ p {
 
 /* !Light/Dark Mode */
 body.mode {
-  background-color: var(--main-text-color2);
   color: var(--main-bg-color);
+  background-color: var(--main-text-color2);
 }
