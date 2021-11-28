@@ -378,8 +378,8 @@ p {
   width: 100vh;
 }
 
-justify-content: center;
 .footer {
+  justify-content: center;
   display: flex;
   align-items: center;
   padding: 1rem;
